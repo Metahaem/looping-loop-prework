@@ -1,5 +1,8 @@
 def looping
-puts "Wingardium Leviosa"
+"Wingardium Leviosa"
 end
 
-looping
+loop do
+  puts "#{looping}"
+end
+  
